@@ -1,0 +1,9 @@
+
+.#*
+*#
+*.*~
+*.txt
+db/*
+incremental_db/*
+.qsys_edit/*
+output_files/*
