@@ -87,8 +87,8 @@ entity LatheRiscVTopDbg is
 
   aux      : out std_ulogic_vector(7 downto 0);
   pinOut   : out std_logic_vector(11 downto 0) := (others => '0');
-  extOut   : out std_logic_vector(2 downto 0) := (others => '0');
-  bufOut   : out std_logic_vector(3 downto 0) := (others => '0');
+  extOut   : out std_logic_vector(2 downto 0)  := (others => '0');
+  bufOut   : out std_logic_vector(3 downto 0)  := (others => '0');
 
   zDoneInt : out std_logic := '0';
   xDoneInt : out std_logic := '0'
